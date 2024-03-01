@@ -13,18 +13,23 @@
     <script src="index.js"></script>
 </head>
 <body class=" bg-white">
+  <!-- Navigation menu-->
     <div class="mx-auto bg-white sticky top-0 shadow-main">
         <div class="relative flex flex-wrap item-center justify-between w-full bg-grey py-7 shrink-0">
+          <!-- Logo-->
         <div class="px-4 ml-10">
             <img class="h-8 "
             src="assets/component-1/navigation/cache-bank-logo.png" />
         </div>
+        <!-- Desktop menu-->
         <div class="hidden md:flex item-center justify-between gap-12 text-black">
+          <!-- Navigation Links-->
             <a href="#product" class="text-sm font-normal text-grey-700 hover:underline hover:text-grey-900">Product</a>
             <a href="#features" class="text-sm font-normal text-grey-700 hover:underline hover:text-grey-900">Features</a>
             <a href="#get-started" class="text-sm font-normal text-grey-700 hover:underline hover:text-grey-900" >Get Started</a>
             <a href="#contact-us" class="text-sm font-normal text-grey-700 hover:underline hover:text-grey-900" >Contact Us</a>
         </div>
+        <!-- User Authentication Buttons -->
         <div class="hidden md:flex items-center gap-8 mr-10">
           <a href="https://www.w3schools.com" target="_blank">
             <button class="text-sm font-normal text-gray-800 hover:text-gray-900">Log In</button>
@@ -33,8 +38,7 @@
             <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500 ">Sign Up</button>
           </a>
         </div>
-
-
+         <!-- Mobile Menu Toggle Button -->
         <button class="md:hidden" id="mobile-menu-toggle">
             <svg
             fill="none"
@@ -64,15 +68,19 @@
             </defs>
           </svg>
         </button>
+        <!-- Mobile Menu -->
         <div id="mobile-menu" 
         class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4">
+        <!-- Navigation links-->
             <a href="#product" class="text-sm font-normal hover:underline text-gray-700  hover:text-gray-900">Product</a>
             <a href="#features" class="text-sm font-normal hover:underline text-gray-700 hover:text-gray-900">Features</a>
             <a href="#get-started" class="text-sm font-normal hover:underline text-gray-700 hover:text-gray-900" >Get Started</a>
             <a href="#contact-us" class="text-sm font-normal hover:underline text-gray-700 hover:text-gray-900" >Contact Us</a>
+            <!-- Login button-->
             <a href="https://www.w3schools.com" target="_blank">
             <button class="flex items-center px-4 py-2 text-sm font-normal text-black">Log In</button>
             </a>
+            <!-- Sign up button-->
             <a href="https://www.google.com/" target="_blank">
             <button class="flex items-center px-4 py-2 text-sm font-bold rounded-xl bg-purple-blue-100 text-purple-blue-600 hover:bg-purple-blue-600 hover:text-white transition duration-300 ">Sign Up</button>
             </a>
@@ -90,7 +98,7 @@
    Cache bank is designed exclusively for software developers. We understand your financial needs are as unique as the code you write.
    Our services offer cutting-edge financial solutions that help you take care of your cash
   </p>
-
+  <!-- Buttons-->
   <div class="flex flex-col items-center gap-4 lg:flex-row">
     <a href="https://www.javascript.com/" target="_blank">
    <button class="ml-8 flex items-center py-4 text-sm font-bold text-white px-7 focus:ring-4 focus:purple-blue-100 transition duration-300 rounded-xl bg-green-500 hover:bg-pink-500">
@@ -105,6 +113,7 @@
   </div>
   </div>
   <div class="items-center justify-end hidden col-span-1 md:flex mr-10">
+    <!-- Hero image-->
   <img class="w-4/5 rounded-md" src="assets/component-2/hero-image.png" alt="Header image">
   </div>
 </section>
@@ -114,6 +123,7 @@
   <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl">
       Endorsed by global companies like
   </p>
+  <!-- Logos-->
   <div class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64" style="fill: #1b2559">
           <path d="M 32.376953 7 C 25.650953 7 18.181375 9.5161875 16.609375 17.742188 C 16.441375 18.618188 17.052859 19.067312 17.630859 19.195312 L 24.460938 19.892578 C 25.102937 19.858578 25.614281 19.260906 25.738281 18.628906 C 26.326281 15.794906 28.727922 14.394531 31.419922 14.394531 C 32.873922 14.394531 34.516953 14.940516 35.376953 16.228516 C 36.370953 17.666516 36.207031 19.617203 36.207031 21.283203 L 36.207031 22.232422 C 32.109031 22.688422 26.763641 22.966766 22.931641 24.634766 C 18.503641 26.528766 15.398437 30.392266 15.398438 36.072266 C 15.398438 43.340266 20.044141 47.003906 25.994141 47.003906 C 31.020141 47.003906 33.733281 45.798719 37.613281 41.886719 C 38.895281 43.724719 39.351219 44.630453 41.699219 46.564453 C 42.227219 46.844453 42.891422 46.789047 43.357422 46.373047 L 43.357422 46.4375 C 44.767422 45.1935 47.34125 42.961766 48.78125 41.759766 C 49.35525 41.291766 49.23125 40.561828 48.78125 39.923828 C 47.48925 38.157828 46.164062 36.694062 46.164062 33.414062 L 46.164062 22.544922 C 46.164062 17.926922 46.475109 13.654609 43.037109 10.474609 C 40.323109 7.8986094 35.812953 7 32.376953 7 z M 35.248047 27.835938 C 35.566797 27.841188 35.885078 27.851562 36.205078 27.851562 L 36.205078 29.367188 C 36.207078 32.095187 36.317687 34.337719 34.929688 36.761719 C 33.805687 38.729719 31.997672 39.919922 30.013672 39.919922 C 27.301672 39.919922 25.734375 37.891281 25.734375 34.863281 C 25.734375 29.653281 29.831016 28.141562 34.291016 27.851562 C 34.610016 27.830562 34.929297 27.830687 35.248047 27.835938 z M 54.171875 45.441406 C 52.353875 45.467406 50.22375 45.850422 48.59375 46.982422 C 48.09375 47.330422 48.166656 47.817953 48.722656 47.751953 C 50.556656 47.533953 54.609844 47.021359 55.339844 47.943359 C 56.067844 48.867359 54.533609 52.665281 53.849609 54.363281 C 53.641609 54.875281 54.092547 55.073594 54.560547 54.683594 C 57.612547 52.155594 58.428687 46.912531 57.804688 46.144531 C 57.494687 45.770531 55.991875 45.415406 54.171875 45.441406 z M 6.3671875 46.404297 C 5.9871875 46.454297 5.8363281 46.946688 6.2363281 47.304688 C 13.020328 53.368688 21.967828 57 31.923828 57 C 39.025828 57 47.315859 54.800578 53.005859 50.642578 C 53.945859 49.952578 53.124109 48.888922 52.162109 49.294922 C 45.784109 51.974922 38.815766 53.273437 32.509766 53.273438 C 23.159766 53.273438 14.140266 50.74725 6.8222656 46.53125 C 6.6602656 46.43925 6.4911875 46.388297 6.3671875 46.404297 z"/>
@@ -154,13 +164,16 @@
   </div>
 <!-- Component 3-->
   </section>
+  <!-- Features section -->
   <div class="container mx-auto py-10 flex flex-col items-center justify-center" id="features">
+    <!-- Section title and description -->
     <div class="flex flex-col items-center justify-center mt-12 ">
       <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center">Elevate your banking with cache</h1>
       <p class="text-lg text-center lg:w-7/12 text-grey-700 ">We merge cutting-edge banking with a deep understand of software developers' needs.
         Experience tailored financial solutions, advance security, and tech focussed support design just for you.
       </p>  
     </div>
+      <!-- Grid for feature cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
         <!--Card 1-->           
         <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
@@ -296,16 +309,19 @@
 <div class="w-full">
   <div class="container flex flex-col items-center gap-16 mx-auto my-32" id="get-started">
       <div class="grid w-full grid-cols-1 gap-32 lg:grid-cols-2">
+        <!-- Image Section (visible only on large screens)-->
           <div class="bg-cover bg-center hidden lg:block rounded-3xl" style="background-image: url(&quot;assets/component-4/getting-started.png&quot;);">
           </div>
-
+          <!-- Text and Steps Section -->
           <div class="flex flex-col gap-16">
               <div class="flex flex-col gap-2 text-center md:text-start">
                  <h2 class="text-3xl font-extrabold md:text-4xl lg:text-5xl text-dark-grey-900">How Cache Works?</h2>
                  <p class="text-base font-medium leading-7 text-dark-grey-600"><span style="color: rgb(55, 65, 81); font-family: Sohne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';"></span>
                   Cache bank simplifies sign-up with a user-friendly website, streamlined account options , and an efficient verification process, making banking accessible and hassle-free for developers</p>
               </div>
+           <!-- Steps -->
           <div class="grid w-full grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-10">
+              <!-- Step 1 -->
               <div class="flex flex-col item-start gap-1">
                 <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500">
                   <span class="text-base font-bold leading-7 text-white">1</span>
@@ -313,6 +329,7 @@
                 <h3 class="text-base font-bold leading-tight text-dark-grey-900"><span style="border-color: rgb(217, 217, 217); border-image: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-from-position: ; --tw-invert: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ;"> Visit Cache Website</span></h3>
                 <p class="text-base font-medium leading-7 text-dark-grey-600"><span style="color: rgb(55, 65 81); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Go to Cache Bank, click "Sign Up" or "Open an Account</span></p>
               </div>
+              <!-- Step 2 -->
               <div class="flex flex-col item-start gap-1">
                 <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
                   <span class="text-base font-bold leading-7 text-white">2</span>
@@ -320,6 +337,7 @@
                 <h3 class="text-base font-bold leading-tight text-dark-grey-900"><span style="border-color: rgb(217, 217, 217); border-image: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity;">Choose Account Type</span></h3>
                 <p class="text-base font-medium leading-7 text-dark-grey-600"><span style="color: rgb(55, 65 81); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Select from checking, savings or developer specific account.</span></p>
               </div>
+              <!-- Step 3 -->
               <div class="flex flex-col item-start gap-1">
                 <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
                   <span class="text-base font-bold leading-7 text-white">3</span>
@@ -327,6 +345,7 @@
                 <h3 class="text-base font-bold leading-tight text-dark-grey-900"><span style="border-color: rgb(217, 217, 217); border-image: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity;">Provide Personal Information</span></h3>
                 <p class="text-base font-medium leading-7 text-dark-grey-600"><span style="color: rgb(55, 65 81); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Complete the form with your details and identification for security.</span></p>
               </div>
+              <!-- Step 4 -->
               <div class="flex flex-col item-start gap-1">
                 <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500">
                   <span class="text-base font-bold leading-7 text-white">4</span>
@@ -357,7 +376,9 @@
         </span>
         <p class="text-2xl font-extrabold text-dark-grey-900">Email</p>
         <p class="text-base leading-7 text-dark-grey-600"> Contact us at</p>
-        <p class="text-lg font-bold text-green-500" href="mailto:hello@loople.com">hi@cachebank.com </p>
+        <a href="mailto:hello@loople.com">
+        <p class="text-lg font-bold text-green-500">hi@cachebank.com </p>
+        </a>
       </div>
        <!-- card -->
        <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
