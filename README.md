@@ -1,5 +1,7 @@
 # Katiso Mokoena
 
+## Name of the project: Cache Bank website
+
 ## Description:
 The Cache Bank Website is a user-friendly platform designed to simplify the sign-up process for banking services. The website offers streamlined account options and an efficient verification process, making banking accessible and hassle-free for developers and users alike.
 
