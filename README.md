@@ -23,4 +23,5 @@ The Cache Bank Website is a user-friendly platform designed to simplify the sign
 
 ## Extra links
 - Loom video: https://www.loom.com/share/1d8e89b0a78248c9be5b668adc88f1a9?sid=0ddb6fd8-b301-4b07-b535-51ed5bf88b5e
+- Google slides presentation: https://docs.google.com/presentation/d/1HASYYMTSErRP_GwWBYxQsg9u6HLRYZ7yCod6YIbRb38/edit?usp=sharing
 
